@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apadep
+spec:
+  replicas: {{ .Values.replicacount }}
+  selector:
+    matchLabels:
+      app: apa
+  template:
+    metadata:
+      labels:
+        app: apa
+    spec:
+      containers:
+      - name: apacont
+        image: atcomp/apachetest
+        ports:
+        - containerPort: 80
