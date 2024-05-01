@@ -1,0 +1,6 @@
+apiVersion: v2
+name: apatest
+description: A Helm chart for the Apachetest application
+type: application
+version: 1.1.0
+apiVersion: 1.15.0
