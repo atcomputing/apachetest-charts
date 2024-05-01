@@ -1,10 +1,11 @@
 apiVersion: v1
 entries:
   apachetest:
-  - apiVersion: 1.15.0
-    created: "2024-05-01T06:43:52.593443157Z"
+  - apiVersion: v2
+    appVersion: 1.15.0
+    created: "2024-05-01T07:19:41.744888976Z"
     description: A Helm chart for the Apachetest application
-    digest: 1d905da7ba4567cbb668fb6fa9b0454ba3fab668845aa0845d4461f423dedcef
+    digest: a93ace36d7e1ac39d48d0890d204a6e4e261c9aadd6541571c3a1605909e3207
     name: apachetest
     type: application
     urls:
@@ -12,7 +13,7 @@ entries:
     version: 1.1.0
   apatest:
   - apiVersion: 1.15.0
-    created: "2024-05-01T06:43:52.593575092Z"
+    created: "2024-05-01T07:19:41.745175452Z"
     description: A Helm chart for the Apachetest application
     digest: 4fe54e14f3137a3b6ca0a61d01a1175e1bc794bf57a31e8b07f67ab9fb3ec6b5
     name: apatest
@@ -20,4 +21,4 @@ entries:
     urls:
     - https://atcomputing.github.io/apachetest-charts/apatest-1.1.0.tgz
     version: 1.1.0
-generated: "2024-05-01T06:43:52.593195585Z"
+generated: "2024-05-01T07:19:41.74416481Z"
