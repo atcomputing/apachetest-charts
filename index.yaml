@@ -3,7 +3,18 @@ entries:
   apachetest:
   - apiVersion: v2
     appVersion: 1.15.0
-    created: "2024-05-03T06:54:20.51080367Z"
+    created: "2024-05-03T06:59:18.713287842Z"
+    description: A Helm chart for the Apachetest application
+    digest: bd7dc6a9a1d916ac2578fd815d901ace8de74213a8f04af568665fe5d4784d82
+    icon: https://raw.githubusercontent.com/atcomputing/apachetest-charts/main/apachetest/logo.png
+    name: apachetest
+    type: application
+    urls:
+    - https://atcomputing.github.io/apachetest-charts/apachetest-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
+    appVersion: 1.15.0
+    created: "2024-05-03T06:59:18.712977972Z"
     description: A Helm chart for the Apachetest application
     digest: 6d3795415e49b062e03601d2095dfc3ceb0dcd90d103cacd3f92a47144c88e1b
     icon: https://raw.githubusercontent.com/atcomputing/apachetest-charts/main/apachetest/logo.png
@@ -12,4 +23,4 @@ entries:
     urls:
     - https://atcomputing.github.io/apachetest-charts/apachetest-1.1.0.tgz
     version: 1.1.0
-generated: "2024-05-03T06:54:20.510354749Z"
+generated: "2024-05-03T06:59:18.712591989Z"
